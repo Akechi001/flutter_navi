@@ -10,6 +10,7 @@ class SecondScreen extends StatelessWidget {
           onPressed: () {
             // Return to the first screen.
             Navigator.pop(context);
+            Navigator.pushNamed(context, '/FirstScreen');
           },
           child: Text('Go Back to First Screen'),
         ),
